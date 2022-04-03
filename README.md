@@ -62,6 +62,6 @@ Other methods used including hyperparameter tuning are explained in the presenta
 Paper referenced: https://proceedings.neurips.cc/paper/2017/file/dbd22ba3bd0df8f385bdac3e9f8be207-Paper.pdf
 
 ### Contributors
-1. Rogen Ren
-2. Shubham Thakur
+1. Vishwas Prabhu
+2. Tong Wang
 
