@@ -53,9 +53,9 @@ The final layer is the sigmoid layer computing the class probability.
 ### Evaluation Metric 
 
 The evaluation metric used for this task was log loss. These are the validation log loss at each step:
-1. Matrix Factorization: 0.58
+1. Matrix Factorization: 0.52
 2. Matric Factorization with single layer NN: 0.47
-3. Matrix Factorization with two-layer NN: 0.42
+3. Matrix Factorization with two-layer NN: 0.44
 
 
 Other methods used including hyperparameter tuning are explained in the presentation
