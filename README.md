@@ -32,7 +32,7 @@ Matrix factorization is the way to identify the relation between items' and user
 
 `Y = U*V`
 
-where Y is the utility matrix. U and V are the trained user and item embedding respectively. Here is a small representation of how its looks. 
+where Y is the utility matrix. U and V are the trained user and item embedding respectively. 
 
 
 As this is a binary classification problem, we use binary cross-entropy to compute the loss.
