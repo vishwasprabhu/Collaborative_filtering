@@ -34,15 +34,12 @@ Matrix factorization is the way to identify the relation between items' and user
 
 where Y is the utility matrix. U and V are the trained user and item embedding respectively. Here is a small representation of how its looks. 
 
-<img src="images/MF.png" width="500" height="250" /> 
 
 As this is a binary classification problem, we use binary cross-entropy to compute the loss.
 
 ### Dropout Method for Cold-Start User
 
-One of the major issues while building any recommendation system is dealing with cold users. The test data had almost 80% cold users. To deal with this problem, we trained one embedding vector specifically for cold-start users. We used the technique of dropout which randomly picks samples while training and maps them to average cold-start user embedding. Below is the pseudocode for the same:
-
-<img src="images/psuedocode.png" width="400" height="300" /> 
+One of the major issues while building any recommendation system is dealing with cold users. The test data had almost 80% cold users. To deal with this problem, we trained one embedding vector specifically for cold-start users. We used the technique of dropout which randomly picks samples while training and maps them to average cold-start user embedding. 
 
 
 ### Model Architecture
