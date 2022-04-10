@@ -1,5 +1,4 @@
-# Collaborative_filtering based on implicit ratings
-Collaborative filtering using pytorch.
+Trip destination Recommender system for Booking.com data challenge: https://booking.ai/booking-com-wsdm-webtour-2021-data-challenge-d814e9c1dd96
 
 ## Implicit Rating Recommender
 
